@@ -33,43 +33,22 @@
     <!-- SECTION HERO -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1>Transformez Votre Jeu</h1>
-            <p>La meilleure académie de football de la région. Entraînement professionnel pour tous les âges.</p>
-            <button class="cta-btn">Commencez Maintenant</button>
+            <h1 id="heroTitle"></h1>
+            <p id="heroSubtitle"></p>
+            <button class="cta-btn" id="ctaButton"></button>
         </div>
         <video autoplay muted loop class="hero-video">
-            <source src="https://videos.pexels.com/video-files/3356408/3356408-sd_640_360_24fps.mp4" type="video/mp4">
+            <source src="" type="video/mp4">
         </video>
     </section>
 
     <!-- SECTION À PROPOS -->
     <section class="sobre" id="sobre">
         <div class="container">
-            <h2>À Propos de l'Académie</h2>
+            <h2 id="aboutTitle"></h2>
             <div class="sobre-content">
-                <div class="sobre-text">
-                    <h3>Excellence en Entraînement</h3>
-                    <p>Avec plus de 10 ans d'expérience, l'Académie de Football est dédiée au développement des talents et à la préparation des athlètes pour le succès. Notre équipe d'entraîneurs spécialisés propose des programmes d'entraînement personnalisés pour tous les âges et niveaux d'expérience.</p>
-                    <p>Nous utilisons des méthodologies modernes et des structures de classe mondiale pour assurer que chaque élève atteigne son potentiel maximal.</p>
-                </div>
-                <div class="sobre-stats">
-                    <div class="stat">
-                        <h4>500+</h4>
-                        <p>Étudiants Entraînés</p>
-                    </div>
-                    <div class="stat">
-                        <h4>15+</h4>
-                        <p>Entraîneurs</p>
-                    </div>
-                    <div class="stat">
-                        <h4>3</h4>
-                        <p>Terrains</p>
-                    </div>
-                    <div class="stat">
-                        <h4>10+</h4>
-                        <p>Années</p>
-                    </div>
-                </div>
+                <div class="sobre-text" id="aboutText"></div>
+                <div class="sobre-stats" id="aboutStats"></div>
             </div>
         </div>
     </section>
@@ -77,123 +56,25 @@
     <!-- SECTION SERVICES -->
     <section class="servicos" id="servicos">
         <div class="container">
-            <h2>Nos Services</h2>
-            <div class="servicos-grid">
-                <div class="servico-card">
-                    <i class="fas fa-child"></i>
-                    <h3>École de Base</h3>
-                    <p>Entraînement pour enfants de 4 à 10 ans. Développement fondamental de la technique et de la coordination.</p>
-                </div>
-                <div class="servico-card">
-                    <i class="fas fa-running"></i>
-                    <h3>Catégorie Enfants</h3>
-                    <p>Préparation pour enfants de 11 à 14 ans. Focus sur la tactique et le développement physique.</p>
-                </div>
-                <div class="servico-card">
-                    <i class="fas fa-trophy"></i>
-                    <h3>Catégorie Jeunes</h3>
-                    <p>Entraînement avancé pour adolescents de 15 à 17 ans. Préparation aux compétitions.</p>
-                </div>
-                <div class="servico-card">
-                    <i class="fas fa-dumbbell"></i>
-                    <h3>Adultes</h3>
-                    <p>Football récréatif et fitness. Entraînements flexibles pour adultes qui souhaitent rester en forme.</p>
-                </div>
-                <div class="servico-card">
-                    <i class="fas fa-heartbeat"></i>
-                    <h3>Conditionnement Physique</h3>
-                    <p>Programmes de préparation physique et nutrition personnalisés pour les athlètes sérieux.</p>
-                </div>
-                <div class="servico-card">
-                    <i class="fas fa-video"></i>
-                    <h3>Analyse de Performance</h3>
-                    <p>Analyse vidéo professionnelle et rapports de performance pour un développement continu.</p>
-                </div>
-            </div>
+            <h2 id="servicesTitle"></h2>
+            <div class="servicos-grid" id="servicesGrid"></div>
         </div>
     </section>
-
 
     <!-- SECTION GALERIE -->
     <section class="galeria" id="galeria">
         <div class="container">
-            <h2>Galerie</h2>
-            <div class="galeria-grid">
-                <div class="galeria-item">
-                    <img src="img/Captura de ecrã 2025-12-10 073057.png" alt="Entraînement">
-                    <div class="galeria-overlay">
-                        <p>Entraînement sur Terrain</p>
-                    </div>
-                </div>
-                <div class="galeria-item">
-                    <img src="img/conjunto 4.png" alt="Technique">
-                    <div class="galeria-overlay">
-                        <p>Développement de Technique</p>
-                    </div>
-                </div>
-                <div class="galeria-item">
-                    <img src="img/59b9cf439f9af1421f56ced6071e0afb.png" alt="Championnats">
-                    <div class="galeria-overlay">
-                        <p>Championnats</p>
-                    </div>
-                </div>
-                <div class="galeria-item">
-                    <img src="img/444fd254bd082c1a026bbc40c4b39b8e.png" alt="Équipe">
-                    <div class="galeria-overlay">
-                        <p>Notre Équipe</p>
-                    </div>
-                </div>
-                <div class="galeria-item">
-                    <img src="img/9ea992cd87c049d3f000b7309b5185e6.png" alt="Terrain">
-                    <div class="galeria-overlay">
-                        <p>Installations</p>
-                    </div>
-                </div>
-                <div class="galeria-item">
-                    <img src="img/a96df5d01a44857bc382cc3a0dec7c34.png" alt="Événement">
-                    <div class="galeria-overlay">
-                        <p>Événements</p>
-                    </div>
-                </div>
-            </div>
+            <h2 id="galleryTitle"></h2>
+            <div class="galeria-grid" id="galleryGrid"></div>
         </div>
     </section>
 
     <!-- SECTION CONTACT -->
     <section class="contato" id="contato">
         <div class="container">
-            <h2>Nous Contacter</h2>
+            <h2 id="contactTitle"></h2>
             <div class="contato-content">
-                <div class="contato-info">
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Adresse</h4>
-                            <p>KEUR MBAYE FALL<br>MBAO</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Téléphone</h4>
-                            <p>(+221) 776460730<br></p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>contact@academiedefootball.com<br>info@academiedefootball.com</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Horaires</h4>
-                            <p>Lun - Ven: 07:00 - 22:00<br>Sam - Dim: 08:00 - 18:00</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="contato-info" id="contactInfo"></div>
 
                 <form class="contato-form">
                     <div class="form-group">
@@ -217,46 +98,9 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Académie de Football</h4>
-                    <p>Développer les talents et transformer les vies grâce au football.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h4>Liens Rapides</h4>
-                    <ul>
-                        <li><a href="#home">Accueil</a></li>
-                        <li><a href="#sobre">À Propos</a></li>
-                        <li><a href="#servicos">Services</a></li>
-                        <li><a href="#galeria">Galerie</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#servicos">École de Base</a></li>
-                        <li><a href="#servicos">Catégorie Enfants</a></li>
-                        <li><a href="#servicos">Catégorie Jeunes</a></li>
-                        <li><a href="#servicos">Adultes</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Infolettre</h4>
-                    <p>Recevez des nouvelles et des promotions</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Votre email" required>
-                        <button type="submit">S'abonner</button>
-                    </form>
-                </div>
-            </div>
+            <div class="footer-content" id="footerContent"></div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Académie de Football. Tous les droits réservés.</p>
+                <p id="footerCopyright"></p>
             </div>
         </div>
     </footer>
