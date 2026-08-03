@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Académie de Football</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="galeria-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER ET NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-futbol">Athletic Club Replique</i> <span>Académie de Football</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Accueil</a></li>
+                <li><a href="index.html#sobre">À Propos</a></li>
+                <li><a href="index.html#servicos">Services</a></li>
+                <li><a href="galeria.html">Galerie</a></li>
+                <li><a href="index.html#contato">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- SECTION HERO GALERIE -->
+    <section class="galeria-hero">
+        <div class="galeria-hero-overlay">
+            <h1>Notre Galerie</h1>
+            <p>Découvrez les moments mémorables de notre académie</p>
+        </div>
+    </section>
+
+    <!-- SECTION GALERIE -->
+    <section class="galeria-section">
+        <div class="container">
+            <!-- FILTRES -->
+            <div class="filtros-container">
+                <h2>Catégories</h2>
+                <div class="filtros">
+                    <button class="filtro-btn active" data-filter="todos">Tous</button>
+                    <button class="filtro-btn" data-filter="treinos">Entraînements</button>
+                    <button class="filtro-btn" data-filter="competicoes">Compétitions</button>
+                    <button class="filtro-btn" data-filter="eventos">Événements</button>
+                    <button class="filtro-btn" data-filter="instalacoes">Installations</button>
+                    <button class="filtro-btn" data-filter="equipe">Équipe</button>
+                </div>
+            </div>
+
+            <!-- GALERIE GRID -->
+            <div class="galeria-grid">
+                <!-- Équipe (equipe) -->
+                <div class="galeria-item equipe" data-category="equipe">
+                    <img src="img/conjunto 2.png" alt="Logo Officiel">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Logo Officiel</h3>
+                            <p>L'emblème de l'Athletic Club, symbole de notre identité.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item equipe" data-category="equipe">
+                    <img src="img/conjunto 3.png" alt="Coaching Individuel">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Coaching Individuel</h3>
+                            <p>Nos entraîneurs encadrent chaque joueur pour corriger sa technique.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item equipe" data-category="equipe">
+                    <img src="img/junior.png" alt="Nos Jeunes Espoirs">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Nos Jeunes Espoirs</h3>
+                            <p>Concentration et écoute des consignes avant le début des ateliers.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <!-- Entraînements (treinos) -->
+                <div class="galeria-item treinos" data-category="treinos">
+                    <img src="img/conjunto 4.png" alt="Saut d'Obstacles">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Saut d'Obstacles</h3>
+                            <p>Travail pliométrique pour améliorer la puissance et la détente.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item treinos" data-category="treinos">
+                    <img src="img/prodigio.jpg" alt="Atelier de Vitesse">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Atelier de Vitesse</h3>
+                            <p>Développement de l'explosivité et des appuis rapides.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item treinos" data-category="treinos">
+                    <img src="img/444fd254bd082c1a026bbc40c4b39b8e.png" alt="Échelle d'Agilité">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Échelle d'Agilité</h3>
+                            <p>Coordination et vitesse de pieds sur l'échelle de rythme.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item treinos" data-category="treinos">
+                    <img src="img/f585eb20ee9735d3ca932538313cf64d.png" alt="Parcours Physique">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Parcours Physique</h3>
+                            <p>Circuit complet alliant endurance, saut et vivacité.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <!-- Compétitions (competicoes) -->
+                <div class="galeria-item competicoes" data-category="competicoes">
+                    <img src="img/c193d979e67d25dbfa6cec029433de38.png" alt="Match de Préparation">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Match de Préparation</h3>
+                            <p>Mise en situation de match pour tester l'intensité physique.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item competicoes" data-category="competicoes">
+                    <img src="img/a96df5d01a44857bc382cc3a0dec7c34.png" alt="Jeu de Tête">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Jeu de Tête</h3>
+                            <p>Entraînement aux duels aériens pour les compétitions à venir.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item competicoes" data-category="competicoes">
+                    <img src="img/a77a8cceecd0de2db71fbc05e9d79950.png" alt="Dépassement de Soi">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Dépassement de Soi</h3>
+                            <p>Simulations d'efforts intenses requis en compétition officielle.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <!-- Événements (eventos) -->
+                <div class="galeria-item eventos" data-category="eventos">
+                    <img src="img/49587f7ef6ff65175bc50c1370f620fb.png" alt="Journée de Détection">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Journée de Détection</h3>
+                            <p>Séance d'évaluation pour les nouveaux talents de la région.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item eventos" data-category="eventos">
+                    <img src="img/59b9cf439f9af1421f56ced6071e0afb.png" alt="Stage d'Été">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Stage d'Été</h3>
+                            <p>Activités intensives et esprit d'équipe lors de nos camps annuels.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item eventos" data-category="eventos">
+                    <img src="img/9ea992cd87c049d3f000b7309b5185e6.png" alt="Session Communautaire">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Session Communautaire</h3>
+                            <p>Événements ouverts à tous les jeunes passionnés de football.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <!-- Installations (instalacoes) -->
+                <div class="galeria-item instalacoes" data-category="instalacoes">
+                    <img src="img/7b22f7a76138eab964be4bdff6f1b6eb.png" alt="Terrain Principal">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Terrain Principal</h3>
+                            <p>Notre terrain de préparation en plein air pour s'adapter à toutes les conditions.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="galeria-item instalacoes" data-category="instalacoes">
+                    <img src="img/b7d3fa1751d5c7fd5a93e244be7f40eb.png" alt="Aire d'Entraînement">
+                    <div class="galeria-overlay">
+                        <div class="galeria-info">
+                            <h3>Aire d'Entraînement</h3>
+                            <p>Espaces aménagés pour le travail physique et technique spécifique.</p>
+                        </div>
+                        <button class="btn-zoom"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL LIGHTBOX -->
+    <div class="modal-lightbox" id="modalLightbox">
+        <button class="modal-close">&times;</button>
+        <button class="modal-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="modal-content">
+            <img src="" alt="Galerie" id="modalImg">
+            <div class="modal-info">
+                <h3 id="modalTitle">Titre</h3>
+                <p id="modalDesc">Description</p>
+            </div>
+        </div>
+        <button class="modal-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Académie de Football</h4>
+                    <p>Développer les talents et transformer les vies grâce au football.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="index.html#home">Accueil</a></li>
+                        <li><a href="index.html#sobre">À Propos</a></li>
+                        <li><a href="index.html#servicos">Services</a></li>
+                        <li><a href="galeria.html">Galerie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#servicos">École de Base</a></li>
+                        <li><a href="index.html#servicos">Catégorie Enfants</a></li>
+                        <li><a href="index.html#servicos">Catégorie Jeunes</a></li>
+                        <li><a href="index.html#servicos">Adultes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Infolettre</h4>
+                    <p>Recevez des nouvelles et des promotions</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Académie de Football. Tous les droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="galeria-script.js"></script>
+</body>
+</html>
